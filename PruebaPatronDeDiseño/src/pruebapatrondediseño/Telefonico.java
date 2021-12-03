@@ -1,14 +1,14 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package pruebapatrondediseño;
 
-/**
- *
- * @author Ricardo
- */
-public class Telefonico {
+
+public class Telefonico implements Facade {
+    public void Reclamo(){
+        System.out.println("Su reclamo ha sido recibido, Espere nuestra respuesta");
+    }
+    @Override
+    public void consultarmonto(Cliente ciente) {
+        System.out.println("Se ha mostrado su monto actual");
+    }
     
 }

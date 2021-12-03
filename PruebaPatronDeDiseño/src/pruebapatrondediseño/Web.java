@@ -1,14 +1,13 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package pruebapatrondediseño;
 
-/**
- *
- * @author Ricardo
- */
-public class Web {
+public class Web implements Facade{
     
+    public void ActualizarDatos(){
+        System.out.println("Se han actualizado lso datos");
+    }
+    @Override
+    public void consultarmonto(Cliente cliente) {
+        System.out.println("Se ha mostrado su monto actual");
+    }    
 }
