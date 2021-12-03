@@ -1,4 +1,3 @@
-package refactoring_guru.decorator.example.decorators;
 
 public class TelegramDecorator extends BaseDecorator {
 

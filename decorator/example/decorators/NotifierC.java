@@ -1,6 +1,4 @@
-package refactoring_guru.decorator.example.decorators;
 
-import java.io.*;
 
 public class NotifierC implements Notifier {
     private String correo;

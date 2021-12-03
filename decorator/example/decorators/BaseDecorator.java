@@ -1,4 +1,4 @@
-package refactoring_guru.decorator.example.decorators;
+
 
 public class BaseDecorator implements Notifier {
     private Notifier wrappee;

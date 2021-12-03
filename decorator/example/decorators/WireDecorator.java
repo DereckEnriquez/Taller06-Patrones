@@ -1,4 +1,4 @@
-package refactoring_guru.decorator.example.decorators;
+
 
 public class WireDecorator extends BaseDecorator {
 
